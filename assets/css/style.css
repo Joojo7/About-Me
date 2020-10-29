@@ -730,7 +730,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: var(--primarylight);
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
