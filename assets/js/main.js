@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 !(function($) {
   "use strict";
 
@@ -53,6 +54,37 @@
       }
     }
   });
+
+
+
+  // Theme
+  $(document).on('click', '#theme', function(e) {
+    if($(this).is(":checked")){
+      document.documentElement.style.setProperty('--primarybirght', '#0a6ceb');
+    document.documentElement.style.setProperty('--primarylight', '#0a6ceb');
+    document.documentElement.style.setProperty('--white', '#1a1a1a');
+    document.documentElement.style.setProperty('--graygradient', 'rgba(55, 55, 55, 0.816)');
+    document.documentElement.style.setProperty('--darklightwhite', 'rgb(238, 238, 238, 0.919)');
+    document.documentElement.style.setProperty('--lightwhite', 'rgba(16, 16, 16, 0.08)');
+    document.documentElement.style.setProperty('--panels', '#0a6ceb');
+    document.documentElement.style.setProperty('--bgpic', 'url("../img/bglightmode.jpg")');
+  }
+  else if($(this).is(":not(:checked)")){
+    document.documentElement.style.setProperty('--primarybirght', '#ebb60a');
+    document.documentElement.style.setProperty('--primarylight', '#ebb60a');
+    document.documentElement.style.setProperty('--white', '#ffffff');
+    document.documentElement.style.setProperty('--graygradient', 'rgba(255, 255, 255, 0.816)');
+    document.documentElement.style.setProperty('--darklightwhite', 'rgba(1, 1, 1, 0.72)');
+    document.documentElement.style.setProperty('--lightwhite', 'rgba(255, 255, 255, 0.08)');
+    document.documentElement.style.setProperty('--panels', '#444444');
+    document.documentElement.style.setProperty('--bgpic', 'url("../img/bgme.jpg")');
+  }
+    
+  });
+
+
+
+
 
   // Activate/show sections on load with hash links
   if (window.location.hash) {
