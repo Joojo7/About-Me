@@ -54,7 +54,7 @@
       }
     }
   });
-
+  
 
 
   // Theme
@@ -68,7 +68,7 @@
     document.documentElement.style.setProperty('--lightwhite', 'rgba(16, 16, 16, 0.08)');
     document.documentElement.style.setProperty('--panels', '#0a6ceb');
     document.documentElement.style.setProperty('--bgpic', 'url("../img/bglightmode.jpg")');
-    document.body.style.backgroundImage = 'url("../assets/img/bglightmode.jpeg"';
+    document.body.style.backgroundImage = 'url("../../assets/img/bglightmode.jpeg"';
   }
   else if($(this).is(":not(:checked)")){
     document.documentElement.style.setProperty('--primarybirght', '#ebb60a');
@@ -79,7 +79,7 @@
     document.documentElement.style.setProperty('--lightwhite', 'rgba(255, 255, 255, 0.08)');
     document.documentElement.style.setProperty('--panels', '#444444');
     document.documentElement.style.setProperty('--bgpic', 'url("../img/bgme.jpg")');
-    document.body.style.backgroundImage = 'url("../assets/img/bgme.jpeg"';
+    document.body.style.backgroundImage = 'url("../../assets/img/bgme.jpeg"';
 
   }
     
