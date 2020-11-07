@@ -39,7 +39,7 @@
           $(hash).addClass('section-show');
         }
 
-        $('html, body').animate({
+        $('html, body, .housingTheme1, .housingTheme2').animate({
           scrollTop: 0
         }, 350);
 

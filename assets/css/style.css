@@ -27,22 +27,16 @@
 
 .housingTheme1{
   font-family: "Open Sans", sans-serif;
-  background-image:  url("../../assets/img/bgme.jpeg");
-  color: var(--white);;
+  color: var(--white);
   position: relative;
-  background-position: top right;
-  background-size: cover;
-  z-index: -1;
-  height: 100vh;
-
+  background: transparent;
 }
 
 .housingTheme1::before{
+
   content: "";
   position: fixed;
-  background-repeat: no-repeat;
-  /* background-color: var(--bodypanel); */
-  background-position: top right;
+  background:  url("../../assets/img/bgme.jpeg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -54,22 +48,15 @@
 
 .housingTheme2{
   font-family: "Open Sans", sans-serif;
-  background-image:  url("../../assets/img/bglightmode.jpeg");
-  color: var(--white);;
+  color: var(--white);
   position: relative;
-  background-position: top right;
-  background-size: cover;
-  z-index: -1;
-  height: 100vh;
-
+  background: transparent;
 }
 
 .housingTheme2::before{
   content: "";
   position: fixed;
-  background-repeat: no-repeat;
-  /* background-color: var(--bodypanel); */
-  background-position: top right;
+  background:  url("../../assets/img/bglightmode.jpeg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
