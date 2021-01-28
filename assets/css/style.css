@@ -929,6 +929,11 @@ section .container {
   right: 15px;
 }
 
+.portfolio-wrap p {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
